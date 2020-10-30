@@ -14,8 +14,8 @@ go:
 
 before_script: 
   #- ls -la /home/travis/.gimme/versions/go1.6.src/
-  - ls -la /home/travis/.gimme/versions/
-  - ls -la /home/travis/.gimme/version/
-  - ls -la /home/travis/.gimme/
+  #- ls -la /home/travis/.gimme/versions/
+  #- ls -la /home/travis/.gimme/
+  - unset GOROOT
 
 script: make test
