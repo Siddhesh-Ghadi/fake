@@ -13,7 +13,7 @@ go:
   - tip
 
 before_script: 
-  - ls -la /home/travis/.gimme/versions/go1.6.src/
+  #- ls -la /home/travis/.gimme/versions/go1.6.src/
   - ls -la /home/travis/.gimme/versions/
   - ls -la /home/travis/.gimme/
 
